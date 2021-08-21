@@ -1426,3 +1426,27 @@ input.input-newsletter,
     background: #ffffff;
   }
 }
+
+.logo-img {
+  background-color: white;
+}
+
+
+.desktop-head-top, .desktop-head, .desktop-head .desktop-nav-item, .desktop-head .desktop-nav {
+    background-color:#3d4069;
+}
+.desktop-nav .desktop-nav-item .desktop-nav-link {
+    color:white;
+}
+
+div.welcome-message.text-center.p-all-half , #prod-page > div:nth-child(1) > div > div, .breadcrumbs{
+    display: none;
+}
+
+.img-absolute-centered {
+    border:6px solid #3d4069;
+}
+
+#contact-page > div > div.span7.text-center, .powered-by, div.js-hide-footer-while-scrolling.footer.clear-both > div > div:nth-child(1) > div:nth-child(1){
+    display: none;
+}
