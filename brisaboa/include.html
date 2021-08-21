@@ -1,16 +1,25 @@
 <script type="text/javascript">
         //cor principal
+        $(".logo-img").css("background-color","white");
         $(".desktop-head-top").css("background-color","#3d4069");
-
+        $(".desktop-head").css("background-color","#3d4069");
+        $(".desktop-head .desktop-nav-item").css("background-color","#3d4069");
+        $(".desktop-head .desktop-nav").css("background-color","#3d4069");
+        $(".desktop-nav .desktop-nav-item .desktop-nav-link").css("color","white");
         //capa
         $(" div.welcome-message.text-center.p-all-half").hide();
 
         //produtos
         $("#prod-page > div:nth-child(1) > div > div").hide();
-        $(". breadcrumbs").hide();
+        $(".breadcrumbs").hide();
 
          //produtos
         $(".img-absolute-centered").css("border","6px solid #3d4069");
+
+        //contato
+        // $("#contact-page > div > div.span7.text-center > p").hide();
+        $("#contact-page > div > div.span7.text-center").hide();
+        $("#contact-page > div > div.span5").removeClass("span5").addClass("span10");
 
        //footer
         $(".powered-by").hide();
